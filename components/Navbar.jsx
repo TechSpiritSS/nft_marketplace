@@ -83,15 +83,15 @@ const Navbar = () => {
             onClick={() => {}}
           >
             <Image
-              src={images.logo02}
+              src={images.logo}
               objectFit="contain"
-              width={32}
-              height={32}
+              width={200}
+              height={54}
               alt="logo"
             />
-            <p className="dark:text-white text-nft-black-1 font-semibold text-lg ml-1">
-              CryptoKet
-            </p>
+            {/* <p className="dark:text-white text-nft-black-1 font-semibold text-lg ml-1">
+              NFT Mart
+            </p> */}
           </div>
         </Link>
         <Link href="/">

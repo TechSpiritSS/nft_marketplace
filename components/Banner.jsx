@@ -6,7 +6,7 @@ const Banner = ({ name, parentStyles, childStyles }) => (
   >
     <p
       className={`font-bold text-5xl font-poppins leading-70
-    {childStyles}`}
+    {childStyles} text-white`}
     >
       {name}
     </p>
